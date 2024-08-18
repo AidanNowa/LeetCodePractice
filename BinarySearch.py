@@ -31,6 +31,8 @@ def binary_search(arr, low, high, x):
         return -1
     
 #Iterateive binary search
+#time complexity:  O(log n)
+#space complexity: O(1)
 def binary_search_it(arr, x):
     low = 0
     high = len(arr) -1
